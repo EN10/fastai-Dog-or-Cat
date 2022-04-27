@@ -1,7 +1,7 @@
 from fastai.vision.all import *
 import gradio as gr
 
-learn = load_learner('model.lrn')
+learn = load_learner('model.pkl')
 categories = ('Dog', 'Cat')
 
 def classify_image(img):
