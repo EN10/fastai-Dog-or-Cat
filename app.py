@@ -1,11 +1,11 @@
 from fastai.vision.all import *
 import gradio as gr
 
-l2 = load_learner('model.lrn')
+learn = load_learner('model.lrn')
 categories = ('Dog', 'Cat')
 
 def classify_image(img):
-    pred,idx,probs = l2.predict(img)
+    pred,idx,probs = learn.predict(img)
     return dict(zip(categories, map(float,probs)))
 
 image = gr.inputs.Image(shape=(128, 128))
