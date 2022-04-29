@@ -19,7 +19,7 @@ def classify_image(img):
     return dict(zip(categories, map(float,probs)))
 
 # Cell
-image = gr.inputs.Image(shape=(128, 128))
+image = gr.inputs.Image(shape=(192, 192))
 label = gr.outputs.Label()
 examples = ['dog.jpg', 'cat.jpg', 'dunno.jpg']
 
