@@ -1,6 +1,7 @@
 # fast.ai Dog or Cat
 
-* [Simplified Cat of Dog Transfer Learning Example](https://github.com/eniompw/fastai-Dog-or-Cat/blob/main/Cat_or_Dog.ipynb)
+* [Simplified Cat or Dog Transfer Learning Example](https://github.com/eniompw/fastai-Dog-or-Cat/blob/main/Cat_or_Dog.ipynb)
+* [Cat or Dog Code Walkthrough](https://nbviewer.org/github/fastai/fastbook/blob/master/01_intro.ipynb#How-Our-Image-Recognizer-Works)
 
 ---
 title: Dog or Cat?
